@@ -11,6 +11,6 @@ class Mahasiswa extends CI_Model
 
         $query = $this->db->get();
 
-        return $query;
+        return $query->result();
     }
 }
